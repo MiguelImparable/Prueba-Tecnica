@@ -1,5 +1,5 @@
 ## Descargar dependencias
-1. Ingresar a traves del terminal a la carpeta
+1. Ingresar a traves del terminal a la carpeta prueba-t
 2. Ejecutar el siguiente codigo: npm install
 3. El codigo crearia las dependencias en su respectiva carpeta node_modules
 
