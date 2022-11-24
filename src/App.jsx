@@ -2,12 +2,15 @@ import "./styles/App.css";
 import { HomepageList } from "./components/HomepageList.jsx";
 import { Button } from "./components/Button";
 import { useState } from "react";
+import { saveAs } from "file-saver"
 
 function App() {
   const [amount, setAmount] = useState(0);
 
   const click = () => {
     setAmount(document.getElementById("input").value);
+    var data  = JSON.stringify(setAmount);
+    saveAs(data, "./data/Arrays.JSON");
   };
   return (
     <div className="app">
