@@ -1,0 +1,27 @@
+.Perfect-Numbers-List h2 {
+  text-align: center;
+}
+.Perfect-Number {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  margin-top: 13px;
+  font-size: 1.3em;
+  border-radius: 15px;
+  background-color: var(--background-color2);
+  box-shadow: 5px 5px 20px var(--background-color2);
+}
+.Perfect-Number:hover {
+  transform: translateY(-5%);
+}
+.Perfect-Number .index {
+  text-align: center;
+  justify-content: center;
+  width: 30%;
+  height: 100%;
+}
+.Perfect-Number .element {
+  padding-left: 30px;
+  width: 80%;
+  height: 100%;
+}

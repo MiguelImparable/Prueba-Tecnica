@@ -1,0 +1,60 @@
+:root {
+  --basic-color: rgb(255, 255, 255);
+  --background-color: rgb(33, 33, 33);
+  --background-color2: rgb(15, 15, 15);
+  --function-style: rgba(13, 178, 200, 0.8);
+}
+* {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+body {
+  background-color: var(--background-color);
+  color: var(--basic-color);
+}
+.app {
+  display: flex;
+  margin: 1%;
+}
+.container {
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 55%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.container h2 {
+  margin-top: 30px;
+  padding: 3%;
+  border: solid;
+  font-size: 2em;
+  border-radius: 15px;
+}
+.container .container-inf {
+  margin-top: 130px;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 200px;
+  padding-top: 10px;
+}
+.container-inf #input {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  text-align: center;
+  font-size: 2em;
+  border: none;
+  margin-right: 5%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px var(--background-color2);
+}
+.container-inf .bn {
+  width: 100%;
+  height: 50px;
+  font-size: 2em;
+  box-shadow: 5px 5px 20px var(--background-color2);
+}
+.container-amounts {
+  width: 45%;
+  right: 0;
+}
